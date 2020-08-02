@@ -1,0 +1,7 @@
+source "kernel/rhino/Config.in"
+source "kernel/init/Config.in"
+source "kernel/cli/Config.in"
+source "kernel/debug/Config.in"
+source "kernel/fs/kv/Config.in"
+source "kernel/fs/vfs/Config.in"
+source "kernel/bus/mbmaster/Config.in"

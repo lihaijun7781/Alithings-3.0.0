@@ -1,0 +1,7 @@
+{
+    "aliosStudio.inner.yosBin": "aos",
+    "aliosStudio.hardware.board": "everylinked",
+    "aliosStudio.name": "sensor_gui",
+    "aliosStudio.aosVersion": "2.1.0",
+    "C_Cpp.default.browse.databaseFilename": "${workspaceRoot}/.vscode/.TAGS.AOS.DB",
+}

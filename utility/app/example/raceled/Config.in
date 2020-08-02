@@ -1,0 +1,9 @@
+config AOS_APP_RACELED
+    bool "Race Led Sample"
+    select AOS_COMP_OSAL_AOS
+    help
+        raceled sample
+
+if AOS_APP_RACELED
+# Configurations for app raceled
+endif

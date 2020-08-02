@@ -1,0 +1,8 @@
+menu "Network     Configuration"
+
+source "network/nal/sal/Config.in"
+source "network/netmgr/Config.in"
+source "network/yloop/Config.in"
+source "network/und/Config.in"
+
+endmenu
