@@ -1,0 +1,2 @@
+config AOS_COMP_DEVICE_SAL_ESP8266_12F
+    bool "ESP8266_12F"

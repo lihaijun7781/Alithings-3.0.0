@@ -1,0 +1,27 @@
+# --- Generated Automatically ---
+menu "BSP         Configuration"
+choice
+    prompt "Select board"
+
+source "board/stm32l476rg-nucleo/Config.in"
+if AOS_BOARD_STM32L476RG_NUCLEO
+    config AOS_BUILD_BOARD
+        default "stm32l476rg-nucleo"
+
+    source "platform/mcu/stm32l4xx_cube/Config.in"
+    source "platform/arch/arm/armv7m/Config.in"
+endif
+
+source "board/everylinked/Config.in"
+if AOS_BOARD_EVERYLINKED
+    config AOS_BUILD_BOARD
+        default "everylinked"
+
+    source "platform/mcu/stm32l4xx_cube/Config.in"
+    source "platform/arch/arm/armv7m/Config.in"
+endif
+
+endchoice
+
+endmenu
+# --- End ---
